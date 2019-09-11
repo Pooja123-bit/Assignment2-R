@@ -1,8 +1,9 @@
 #folder.r
 m <- 10
 10 -> m
-c -> dog
-i -> i(1.2, 2.3, 3.2)
+"dog"
+
+i(1.2, 2.3, 3.2)
 n -> n(1,2,3)
 f -> f(1/2, 2/3, 3/4)
 a %% b
@@ -28,3 +29,8 @@ switcheroo.switch <- functionx {
          d = "dog",
          l = "lion")
 }
+switcheroo.if.then ("p")
+
+
+switcheroo.if.then <- function (x) {if(x == "p") "polar bear" else if (x == "t") "turtle" else if (x == "d") "dog" esle
+  
