@@ -1,19 +1,25 @@
 #folder.r
 m <- 10
 #Object with right to left assignment operator
+
 10 -> m
 #Object with left to right assignment operator
+
 x <- "dog"
 #Object x created as character
 typeof(x)
+#On running typeof(x), R returned x as "character"
 
 n <-5:10
 #Object n is taken as integer
 typeof(n)
+#On running typeof(x), R returned n as "integer"
 
-s<- c(1,2,3)
-#object s is set as numeric
-typeof(s)
+x <- 2.5
+#object x is set as numeric
+x
+class(x)
+#On running class(x), R returned x as numeric
 
 s<- c(1,2,3,4,2,1)
 sf<-factor(s)
