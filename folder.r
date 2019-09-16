@@ -110,16 +110,23 @@ switcheroo.if.then("s")
 
 
 load(file="fish_data.Rdata")
-str(fish)
-#the different data types are; chr, factor, num,POSIXct and Int
+
 nrow(fish)
+
 ncol(fish)
+
 class(fish$year)
-#reveals data set type (class) under the year column.
+#when we typed "class(fish$year)" R returned data set type 'character' under the year column.
+
+str(fish)
+#for printing structure of dataframe type str(fish)
+#the different data types are; chr, factor, num,POSIXct and Int
+
 fish$area_fac<-as.character(fish$area_fac)
 #changes area_fac from a factor to character
 str(fish)
 #structure call confirms the change
+
 fish$avg.DNE.m<-NULL
 #command calls for removal of the 'avg.DNE.m"
 str(fish)
