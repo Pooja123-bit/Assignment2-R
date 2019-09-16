@@ -73,6 +73,10 @@ length(o)<- 8
 o
 #when length of o was increased from 5 to 8, R returned "NA NA NA"
 
+#Binary operator with 2 variables assigned with appropriatw symbols between two %
+'%pooja%'<-function(x,y){2*x + 3*y}
+4%pooja%5
+
 #Example of modulus
 10 %% 3
 #this resuts in remainder of 10 by that of 3
