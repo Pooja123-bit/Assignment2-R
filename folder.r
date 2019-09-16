@@ -116,7 +116,7 @@ nrow(fish)
 ncol(fish)
 
 class(fish$year)
-#when we typed "class(fish$year)" R returned data set type 'character' under the year column.
+#when we typed "class(fish$year)" R returned data set type as 'character' under the year column.
 
 str(fish)
 #for printing structure of dataframe type str(fish)
